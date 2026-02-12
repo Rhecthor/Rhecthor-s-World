@@ -1,0 +1,1085 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miracle Chimechefulam - Premium Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="loader-inner">
+                <div class="loader-globe">
+                    <svg width="100" height="100" viewBox="0 0 100 100">
+                        <!-- Globe outline -->
+                        <circle cx="50" cy="50" r="40" stroke="#d4ff00" stroke-width="4" fill="none"/>
+                        <!-- Longitude lines -->
+                        <ellipse cx="50" cy="50" rx="40" ry="16" stroke="#d4ff00" stroke-width="2" fill="none"/>
+                        <ellipse cx="50" cy="50" rx="40" ry="32" stroke="#d4ff00" stroke-width="1.5" fill="none"/>
+                        <!-- Latitude lines -->
+                        <ellipse cx="50" cy="50" rx="16" ry="40" stroke="#d4ff00" stroke-width="2" fill="none"/>
+                        <ellipse cx="50" cy="50" rx="32" ry="40" stroke="#d4ff00" stroke-width="1.5" fill="none"/>
+                        <!-- Rotating arc for animation -->
+                        <path id="globe-arc" d="M50,10 A40,40 0 1,1 49.99,10" stroke="#d4ff00" stroke-width="4" fill="none" stroke-linecap="round"/>
+                    </svg>
+                </div>
+                <div class="loader-logo">
+                </div>
+            </div>
+        </div>
+        <p class="loader-text">
+            <span>Loading</span>
+            <span class="dot dot1">.</span>
+            <span class="dot dot2">.</span>
+            <span class="dot dot3">.</span>
+            <br>
+            <span class="loader-sub">Rhecthor's Tech...</span>
+        </p>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">RhecthorNation</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#testimonials" class="nav-link">Reviews</a></li>
+                <li class="nav-item"><a href="#blog" class="nav-link">Blog</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <a href="#contact" class="btn btn-primary nav-cta">Hire Me</a>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-particles"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-star"></i>
+                    <span>Available for Freelance</span>
+                </div>
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Miracle</span>
+                </h1>
+                <p class="hero-subtitle">
+                    <span class="typewriter"></span>
+                </p>
+                <p class="hero-description">
+                    Premium Full-stack developer with 4+ years of experience building scalable web applications,
+                     and cloud solutions. I turn your ideas into digital reality with cutting-edge technology.
+                </p>
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <span class="stat-number">30+</span>
+                        <span class="stat-text">Projects</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="stat-number">60+</span>
+                        <span class="stat-text">Happy Clients</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="stat-number">4+</span>
+                        <span class="stat-text">Years Exp</span>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-rocket"></i>
+                        View My Work
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-phone"></i>
+                        Let's Talk
+                    </a>
+                    <a href="#" class="btn btn-outline" id="download-cv">
+                        <i class="fas fa-download"></i>
+                        Download CV
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card">
+                    <div class="card-content">
+                        <i class="fas fa-code"></i>
+                        <div class="code-lines">
+                            <div class="code-line"></div>
+                            <div class="code-line"></div>
+                            <div class="code-line"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="floating-elements">
+                    <div class="floating-element" data-speed="2">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <div class="floating-element" data-speed="3">
+                        <i class="fab fa-node-js"></i>
+                    </div>
+                    <div class="floating-element" data-speed="1.5">
+                        <i class="fab fa-python"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+  <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">My Services</h2>
+                <p class="section-subtitle">Comprehensive solutions for your digital needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Frontend Development</h3>
+                    <p>Creating stunning, responsive user interfaces with modern frameworks and best practices for optimal user experience.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> React.js & Next.js</li>
+                        <li><i class="fas fa-check"></i> Responsive Design</li>
+                        <li><i class="fas fa-check"></i> Performance Optimization</li>
+                        <li><i class="fas fa-check"></i> Cross-browser Compatible</li>
+                    </ul>
+                    <div class="service-price">Starting at $1,500</div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <h3>Backend Development</h3>
+                    <p>Robust server-side solutions with scalable architecture, secure APIs, and efficient database management.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> PHP, Python & Node.js</li>
+                        <li><i class="fas fa-check"></i> RESTful APIs</li>
+                        <li><i class="fas fa-check"></i> Database Design</li>
+                        <li><i class="fas fa-check"></i> Cloud Integration</li>
+                    </ul>
+                    <div class="service-price">Starting at $2,000</div>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>UI/UX Design</h3>
+                    <p>Beautiful and intuitive user interfaces designed with user experience in mind using Figma and Adobe XD.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> User Research</li>
+                        <li><i class="fas fa-check"></i> Wireframing</li>
+                        <li><i class="fas fa-check"></i> Prototyping</li>
+                        <li><i class="fas fa-check"></i> Design Systems</li>
+                    </ul>
+                    <div class="service-price">Starting at $1,200</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="section-header">
+                        <h2 class="section-title">About Me</h2>
+                        <p class="section-subtitle">Passionate developer with a mission to create exceptional digital experiences</p>
+                    </div>
+                    <p>
+                        I'm Miracle, a passionate Full-stack developer and tech enthusiast with over 4 years of experience 
+                        creating innovative digital solutions. My journey began with just being a learner in
+                        IGHUB, and I've since worked with startups.
+                    </p>
+                    <p>
+                        I specialize in building scalable web applications using modern technologies like React, 
+                        HTML, CSS, JavaScript, PHP, Python and cloud platforms. I'm passionate about clean code, user experience, 
+                        and solving complex problems with elegant solutions.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-award"></i>
+                            <span>IGHUB</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-certificate"></i>
+                            <span>Hemolife</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-users"></i>
+                            <span>Tech Community Leader</span>
+                        </div>
+                    </div>
+                    <div class="stats">
+                        <div class="stat">
+                            <span class="stat-number" data-target="20">0</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="4">4+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="60">60</span>
+                            <span class="stat-label">Happy Clients</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-target="10">10</span>
+                            <span class="stat-label">Open Source</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-container">
+                        <div class="image-placeholder">
+                           <img src="assets/profile.jpg" alt="profile">
+                        </div>
+                        <div class="experience-badge">
+                            <span class="badge-number">4+</span>
+                            <span class="badge-text">Years Experience</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Expertise</h2>
+                <p class="section-subtitle">Technologies I work with to bring your ideas to life</p>
+            </div>
+            
+            <!-- Frontend Skills Marquee -->
+            <div class="skill-category-header">
+                <h3><i class="fas fa-laptop-code"></i> Frontend Development</h3>
+            </div>
+            <div class="marquee-container">
+                <div class="marquee">
+                    <div class="skill-icon-item">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML5</span>
+                    </div>
+                    <div class="skill-icon-item">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS3</span>
+                    </div>
+                    <div class="skill-icon-item">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-icon-item">
+                        <i class="fab fa-react"></i>
+                        <span>React.js</span>
+                    </div>
+                   
+                    <div class="skill-icon-item">
+                        <i class="fab fa-bootstrap"></i>
+                        <span>Bootstrap</span>
+                    </div>
+                    <div class="skill-icon-item">
+                        <i class="fab fa-sass"></i>
+                        <span>Sass</span>
+                    </div>
+                    
+                    <!-- Duplicate for seamless loop -->
+                    <div class="skill-icon-item">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML5</span>
+                    </div>
+                    <div class="skill-icon-item">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS3</span>
+                    </div>
+                    <div class="skill-icon-item">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-icon-item">
+                        <i class="fab fa-react"></i>
+                        <span>React.js</span>
+                    </div>
+                    <div class="skill-icon-item">
+                        <i class="fab fa-bootstrap"></i>
+                        <span>Bootstrap</span>
+                    </div>
+                    <div class="skill-icon-item">
+                        <i class="fab fa-sass"></i>
+                        <span>Sass</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Backend Skills Marquee -->
+            <div class="skill-category-header">
+                <h3><i class="fas fa-server"></i> Backend Development</h3>
+            </div>
+            <div class="marquee-container">
+                <div class="marquee marquee-reverse">
+                    <div class="skill-icon-item">
+                        <i class="fab fa-node-js"></i>
+                        <span>Node.js</span>
+                    </div>
+                    <div class="skill-icon-item">
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="skill-icon-item">
+                        <i class="fab fa-php"></i>
+                        <span>PHP</span>
+                    </div>
+                    <div class="skill-icon-item">
+                        <i class="fas fa-database"></i>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="skill-icon-item">
+                        <i class="fas fa-database"></i>
+                        <span>MySQL</span>
+                    </div>
+                    <!-- Duplicate for seamless loop -->
+                    <div class="skill-icon-item">
+                        <i class="fab fa-node-js"></i>
+                        <span>Node.js</span>
+                    </div>
+                    <div class="skill-icon-item">
+                        <i class="fab fa-python"></i>
+                        <span>Python</span>
+                    </div>
+                    <div class="skill-icon-item">
+                        <i class="fab fa-php"></i>
+                        <span>PHP</span>
+                    </div>
+                    <div class="skill-icon-item">
+                        <i class="fas fa-database"></i>
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="skill-icon-item">
+                        <i class="fas fa-database"></i>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- UI/UX Skills Marquee -->
+            <div class="skill-category-header">
+                <h3><i class="fas fa-paint-brush"></i> UI/UX Design</h3>
+            </div>
+            <div class="marquee-container">
+                <div class="marquee">
+                    <div class="skill-icon-item">
+                        <i class="fab fa-figma"></i>
+                        <span>Figma</span>
+                    </div>
+                    <div class="skill-icon-item">
+                        <i class="fas fa-pen-nib"></i>
+                        <span>Adobe XD</span>
+                    </div>
+                    <div class="skill-icon-item">
+                        <i class="fas fa-palette"></i>
+                        <span>Canva</span>
+                    </div>
+                    <div class="skill-icon-item">
+                        <i class="fab fa-sketch"></i>
+                        <span>Sketch</span>
+                    </div>
+                    <div class="skill-icon-item">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>FlutterFlow</span>
+                    </div>
+                    <!-- Duplicate for seamless loop -->
+                    <div class="skill-icon-item">
+                        <i class="fab fa-figma"></i>
+                        <span>Figma</span>
+                    </div>
+                    <div class="skill-icon-item">
+                        <i class="fas fa-pen-nib"></i>
+                        <span>Adobe XD</span>
+                    </div>
+                    <div class="skill-icon-item">
+                        <i class="fas fa-palette"></i>
+                        <span>Canva</span>
+                    </div>
+                    <div class="skill-icon-item">
+                        <i class="fab fa-sketch"></i>
+                        <span>Sketch</span>
+                    </div>
+                    <div class="skill-icon-item">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>FlutterFlow</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certifications -->
+            <div class="certifications">
+                <h3><i class="fas fa-certificate"></i> Certifications & Achievements</h3>
+                <div class="cert-grid">
+                    <div class="cert-item">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>IGHUB Certification</span>
+                    </div>
+                    <div class="cert-item">
+                        <i class="fas fa-trophy"></i>
+                        <span>WorldBank Certification</span>
+                    </div>
+                    <div class="cert-item">
+                        <i class="fab fa-react"></i>
+                        <span>React Advanced Certification</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Showcasing my best work and innovative solutions</p>
+            </div>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All Projects</button>
+                <button class="filter-btn" data-filter="web">Web Apps</button>
+                <button class="filter-btn" data-filter="ai">AI/ML</button>
+                <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="ecommerce web">
+                    <div class="project-image">
+                        <i class="fas fa-store"></i>
+                        <div class="project-overlay">
+                            <div class="project-actions">
+                                <a href="#" class="project-action" title="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-action" title="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <button class="project-action" title="Quick View" onclick="window.location.href='https://tradereal.netlify.app'">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">E-commerce</div>
+                        <h3>TradeReal E-commerce</h3>
+                        <p>Full-stack e-commerce platform focused on sustainable products with advanced filtering, real-time inventory, and integrated payments.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                            <span class="tech-tag">JavaScript</span>
+                            
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat-item">
+                                <i class="fas fa-users"></i>
+                                <span>10K+ Users</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-star"></i>
+                                <span>4.9 Rating</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web ai">
+                    <div class="project-image">
+                        <i class="fas fa-chart-line"></i>
+                        <div class="project-overlay">
+                            <div class="project-actions">
+                                <a href="#" class="project-action" title="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="#" class="project-action" title="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <button class="project-action" title="Quick View" onclick="window.location.href='https://traderealdashboard.netlify.app'">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Analytics</div>
+                        <h3>DATA Analytics Dashboard</h3>
+                        <p>Real-time analytics dashboard with AI-powered insights, interactive charts, and predictive analytics for product flow.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat-item">
+                                <i class="fas fa-database"></i>
+                                <span>1M+ Records</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-bolt"></i>
+                                <span>Real-time</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <i class="fas fa-graduation-cap"></i>
+                        <div class="project-overlay">
+                            <div class="project-actions">
+                                <a href="#" class="project-action" title="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>3
+                                </a>
+                                <a href="#" class="project-action" title="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <button class="project-action" title="Quick View" onclick="openProjectModal('educonnect')">
+                                    <i class="fas fa-eye"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Education</div>
+                        <h3>ConnectED - Connecting Mentors with mentees</h3>
+                        <p>A Platform where teenagers get ti connect with their mentors not just in technology but in differnt aspects..</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Node.js</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat-item">
+                                <i class="fas fa-users"></i>
+                                <span>25K+ Students</span>
+                            </div>
+                            <div class="stat-item">
+                                <i class="fas fa-play"></i>
+                                <span>1000+ Courses</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div class="projects-cta">
+                <p>Interested in seeing more projects?</p>
+                <a href="#contact" class="btn btn-primary">Let's Discuss Your Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Client Testimonials</h2>
+                <p class="section-subtitle">What my clients say about working with me</p>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-card active">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Alex delivered an exceptional e-commerce platform that exceeded our expectations. His attention to detail and technical expertise is outstanding. Our sales increased by 300% after launch!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Sarah Johnson</h4>
+                                <span>CEO, EcoMarket Inc.</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Working with Alex was a game-changer for our startup. He built our mobile app from scratch and it now has over 50,000 downloads. His code quality and project management skills are top-notch."</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Michael Chen</h4>
+                                <span>Founder, FitTracker</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Alex transformed our data analytics completely. The AI-powered dashboard he created helps us make better business decisions daily. Highly recommend his services!"</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">
+                                <i class="fas fa-user"></i>
+                            </div>
+                            <div class="author-info">
+                                <h4>Emily Rodriguez</h4>
+                                <span>CTO, DataViz Pro</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-nav">
+                <button class="nav-dot active" data-slide="0"></button>
+                <button class="nav-dot" data-slide="1"></button>
+                <button class="nav-dot" data-slide="2"></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Latest Blog Posts</h2>
+                <p class="section-subtitle">Insights, tutorials, and thoughts on modern web development</p>
+            </div>
+            <div class="blog-grid">
+               
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <i class="fas fa-cloud"></i>
+                        <div class="blog-category">Cloud</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">
+                                <i class="fas fa-calendar"></i>
+                                Dec 10, 2024
+                            </span>
+                            <span class="blog-read-time">
+                                <i class="fas fa-clock"></i>
+                                6 min read
+                            </span>
+                        </div>
+                        <h3>Serverless Architecture with AWS Lambda</h3>
+                        <p>Learn how to build scalable serverless applications using AWS Lambda, API Gateway, and DynamoDB.</p>
+                        <div class="blog-tags">
+                            <span class="tag">AWS</span>
+                            <span class="tag">Serverless</span>
+                            <span class="tag">Node.js</span>
+                        </div>
+                        <a href="#" class="blog-link">
+                            Read More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+                <article class="blog-card">
+                    <div class="blog-image">
+                        <i class="fas fa-robot"></i>
+                        <div class="blog-category">AI/ML</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">
+                                <i class="fas fa-calendar"></i>
+                                Dec 5, 2024
+                            </span>
+                            <span class="blog-read-time">
+                                <i class="fas fa-clock"></i>
+                                10 min read
+                            </span>
+                        </div>
+                        <h3>Integrating AI into Web Applications</h3>
+                        <p>A comprehensive guide to adding AI capabilities to your web apps using OpenAI API and TensorFlow.js.</p>
+                        <div class="blog-tags">
+                            <span class="tag">AI</span>
+                            <span class="tag">TensorFlow</span>
+                            <span class="tag">OpenAI</span>
+                        </div>
+                        <a href="#" class="blog-link">
+                            Read More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </article>
+            </div>
+            <div class="blog-cta">
+                <a href="#" class="btn btn-outline">View All Posts</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="faq" class="faq">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <p class="section-subtitle">Everything you need to know about working with me</p>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What technologies do you specialize in?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>I specialize in modern web technologies including React, HTML5, CSS3, JavaScript, and cloud platforms like AWS and Google Cloud.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>How long does a typical project take?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Project timelines vary based on complexity and scope. A simple website might take 2-4 weeks, while a complex web application could take 2-6 months. I provide detailed timelines during the initial consultation.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you provide ongoing support and maintenance?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, I offer comprehensive support and maintenance packages. This includes bug fixes, security updates, performance optimization, and feature enhancements to keep your application running smoothly.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What is your development process?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>I follow an agile development process: Discovery & Planning → Design & Prototyping → Development & Testing → Deployment & Launch → Support & Maintenance. You'll receive regular updates and can provide feedback throughout.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Do you work with international clients?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>I work with clients worldwide and am comfortable with different time zones. I use modern communication tools to ensure smooth collaboration regardless of location.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>What are your payment terms?</h3>
+                        <i class="fas fa-plus"></i>
+                    </div>
+                    <div class="faq-answer">
+                        <p>I typically work with a 50% upfront payment and 50% upon completion for smaller projects. For larger projects, I can arrange milestone-based payments. I accept various payment methods including bank transfers and PayPal.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section id="newsletter" class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <div class="newsletter-text">
+                    <h2>Stay Updated</h2>
+                    <p>Get the latest insights on web development, AI, and tech trends delivered to your inbox.</p>
+                </div>
+                <form class="newsletter-form">
+                    <div class="form-group">
+                        <input type="email" placeholder="Enter your email address" required>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Subscribe
+                        </button>
+                    </div>
+                    <p class="newsletter-privacy">No spam, unsubscribe at any time.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-subtitle">Ready to bring your ideas to life? Let's discuss your project!</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <h3>Get In Touch</h3>
+                        <p>I'm always excited to work on innovative projects and collaborate with talented teams. Whether you need a front-end developer, technical consultant, or just want to discuss the latest in web development, I'd love to hear from you.</p>
+                        <div class="contact-methods">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Email</h4>
+                                    <span>miraclechimechefulam27@gmail.com</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Phone</h4>
+                                    <span>+2349131710767</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Location</h4>
+                                    <span>Azikwe by  No6 Ojike</span>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h4>Response Time</h4>
+                                    <span>Within 24 hours</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link" title="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="social-link" title="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="social-link" title="Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link" title="Stack Overflow">
+                                <i class="fab fa-stack-overflow"></i>
+                            </a>
+                            <a href="#" class="social-link" title="Medium">
+                                <i class="fab fa-medium"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" action="https://formsubmit.co/miraclechimechefulam27@gmail.com" method="POST">
+    <div class="form-row">
+        <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group">
+            <label for="company">Company (Optional)</label>
+            <input type="text" id="company" name="company">
+        </div>
+        <div class="form-group">
+            <label for="budget">Project Budget</label>
+            <select id="budget" name="budget" required>
+                <option value="">Select Budget Range</option>
+                <option value="under-5k">Under $5,000</option>
+                <option value="5k-10k">$5,000 - $10,000</option>
+                <option value="10k-25k">$10,000 - $25,000</option>
+                <option value="25k-50k">$25,000 - $50,000</option>
+                <option value="over-50k">Over $50,000</option>
+            </select>
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="service">Service Needed</label>
+        <select id="service" name="service" required>
+            <option value="">Select Service</option>
+            <option value="web-development">Web Development</option>
+            <option value="ui-ux-design">UI/UX Design</option>
+            <option value="consulting">Consulting & Training</option>
+            <option value="other">Other</option>
+        </select>
+    </div>
+    <div class="form-group">
+        <label for="message">Project Details</label>
+        <textarea id="message" name="message" rows="6" placeholder="Tell me about your project, goals, and any specific requirements..." required></textarea>
+    </div>
+    <div class="form-group checkbox-group">
+        <label class="checkbox-label">
+            <input type="checkbox" name="newsletter" value="yes">
+            <span class="checkmark"></span>
+            Subscribe to my newsletter for web development tips and updates
+        </label>
+    </div>
+    <button type="submit" class="btn btn-primary btn-large">
+        <i class="fas fa-paper-plane"></i>
+        Send Message
+    </button>
+</form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <span class="logo-text">RhecthorNation</span>
+                    </div>
+                    <p>Premium front-end developer creating exceptional digital experiences with cutting-edge technology.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-medium"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Web Development</a></li>
+                        <li><a href="#services">Cloud Solutions</a></li>
+                        <li><a href="#services">UI/UX Design</a></li>
+                        <li><a href="#services">Consulting</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#projects">Portfolio</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-envelope"></i> miraclechimechefulam27@gmail.com</p>
+                        <p><i class="fas fa-phone"></i> +2349131710767</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Azikwe by No6 ojike</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Miracle. All rights reserved. | Built with ❤️ and lots of ☕</p>
+                <div class="footer-links">
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 id="modal-title">Project Title</h3>
+                <button class="modal-close">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div id="modal-content">
+                    <!-- Dynamic content will be loaded here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Live Chat Widget -->
+    <div id="chat-widget" class="chat-widget">
+        <div class="chat-toggle" id="chat-toggle">
+            <i class="fas fa-comments"></i>
+            <span class="chat-notification">1</span>
+        </div>
+        <div class="chat-window" id="chat-window">
+            <div class="chat-header">
+                <div class="chat-avatar">
+                    <i class="fas fa-user-tie"></i>
+                </div>
+                <div class="chat-info">
+                    <h4>Miracle</h4>
+                    <span class="chat-status">Online</span>
+                </div>
+                <button class="chat-minimize" id="chat-minimize">
+                    <i class="fas fa-minus"></i>
+                </button>
+            </div>
+            <div class="chat-messages" id="chat-messages">
+                <div class="message bot-message">
+                    <div class="message-content">
+                        <p>Hi! 👋 I'm Miracle. How can I help you today?</p>
+                    </div>
+                    <div class="message-time">Just now</div>
+                </div>
+            </div>
+            <div class="chat-input">
+                <input type="text" id="chat-input" placeholder="Type your message...">
+                <button id="chat-send">
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
